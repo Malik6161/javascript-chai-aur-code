@@ -1,0 +1,37 @@
+let score = 33;
+let runs = "55";
+let marks = "44abc";
+let length = null;
+let height = undefined;
+let Boolean = true;
+console.log(typeof score);
+
+console.log(typeof runs); // strings because we write the number in quotes;
+
+console.log(typeof marks);
+
+console.log(typeof null); // type Object
+
+console.log(typeof height);
+
+console.log(typeof Boolean); // Value of true is 1 and false is 
+
+
+marks = Number(marks);
+score = String(score);// Change the type from number to string
+console.log(typeof score);
+
+// Notes
+// "33" => 33
+// "33abc" => Nan // type of this is also number
+// true => 1
+// false => 0
+
+let BooleanIslogedIn = 1
+let BooleanIslogedIn = Boolean(BooleanIslogedIn);
+console.log(BooleanIslogedIn); // output = 1
+
+
+
+
+
