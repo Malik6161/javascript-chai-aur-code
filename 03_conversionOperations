@@ -42,6 +42,50 @@ let stringnumber = String(num2);
 console.log(stringnumber);
 console.log(typeof stringnumber); // now type of 56 shows string .
 
+// ############  OPERATIONS     #############//
+
+let value = 5
+let negValue = -value
+console.log(negValue); // output -5
+
+// Simple operations
+
+console.log(6+6);
+console.log(3-8);
+console.log(4*7);
+console.log(20/4);
+console.log(4%6);
+
+let str1 = "Awais"
+let str2 = " Malik"
+let str3 = "str1 + str2" // it gave output of the same str3 string 
+console.log(str3);
+
+let str4 = "Abdul"
+let str5 = "Hanan"
+let str6 = str4 + str5; // It gave output by combining the both strings
+console.log(str6);
+
+// Problems JavaScript evaluates from left to right.
+// + works from left to right. When a string is involved, the + operation becomes string concatenation.
+
+console.log("1" + 2); // output 12 JavaScript sees a string first:
+
+console.log(1 + "2"); // output 12 Same idea, but the string is on the right:JavaScript converts 1 to a string:
+
+console.log("1" + 2 + 3); // output 123 JavaScript evaluates from left to right.
+
+console.log(1 + 2 + "2"); // output 32
+ 
+
+
+
+
+
+
+
+
+
 
 
 
