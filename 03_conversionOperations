@@ -3,7 +3,8 @@ let runs = "55";
 let marks = "44abc";
 let length = null;
 let height = undefined;
-let Boolean = true;
+let isBoolean = true;
+
 console.log(typeof score);
 
 console.log(typeof runs); // strings because we write the number in quotes;
@@ -14,7 +15,7 @@ console.log(typeof null); // type Object
 
 console.log(typeof height);
 
-console.log(typeof Boolean); // Value of true is 1 and false is 
+console.log(typeof isBoolean); // Value of true is 1 and false is 0
 
 
 marks = Number(marks);
@@ -26,10 +27,20 @@ console.log(typeof score);
 // "33abc" => Nan // type of this is also number
 // true => 1
 // false => 0
+// ""    => false; if we add value in the string it gaves  true
+// "Awais" => true
 
-let BooleanIslogedIn = 1
-let BooleanIslogedIn = Boolean(BooleanIslogedIn);
-console.log(BooleanIslogedIn); // output = 1
+
+
+
+let BooleanIslogedIn = 1;
+BooleanIslogedIn = Boolean(BooleanIslogedIn);
+console.log(BooleanIslogedIn); // output = true
+
+let num2 = 56;
+let stringnumber = String(num2);
+console.log(stringnumber);
+console.log(typeof stringnumber); // now type of 56 shows string .
 
 
 
