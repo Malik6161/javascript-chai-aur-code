@@ -76,17 +76,34 @@ console.log(1 + "2"); // output 12 Same idea, but the string is on the right:Jav
 console.log("1" + 2 + 3); // output 123 JavaScript evaluates from left to right.
 
 console.log(1 + 2 + "2"); // output 32
- 
 
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
 
+// Prefix
 
+let x = 5;
+let y = ++x;
 
+console.log(x);
+console.log(y);
+ // 6 is the updated value of the x
+// console.log(y); // 6
+// x = 5
+//  ++x → x becomes 6
+//   y gets 6
 
+// postfix
 
+// let x = 8;
+// let y = x++;
 
+// console.log(x); // 6
+// console.log(y);
 
+let d = 10;
 
-
-
-
+console.log(d++); // output 10
+console.log(d);   // output 11
 
